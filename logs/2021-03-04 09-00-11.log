@@ -1,0 +1,421 @@
+2021-03-04 09:00:11 -  OTServBR - Global - Version TFS 1.3
+2021-03-04 09:00:11 -  
+2021-03-04 09:00:11 -  Compiled with GNU C++ version 9.3.0
+2021-03-04 09:00:11 -  Compiled on Feb 27 2021 08:04:53 for platform x64
+2021-03-04 09:00:11 -  Linked with LuaJIT 2.1.0-beta3 for Lua support
+2021-03-04 09:00:11 -  
+2021-03-04 09:00:11 -  A server developed by OTServBR, Mark Samman and The Forgotten Server Developers
+2021-03-04 09:00:11 -  Visit our forum for updates, support, and resources: https://otserv.com.br/ and https://forums.otserv.com.br
+2021-03-04 09:00:11 -  
+2021-03-04 09:00:11 -  >> Loading config
+2021-03-04 09:00:11 -  >> Client Version: 12.60
+2021-03-04 09:00:11 -  >> Establishing database connection... MySQL 10.3.25
+2021-03-04 09:00:11 -  >> Running database manager
+2021-03-04 09:00:12 -  > Optimizing table player_storage... [success]
+2021-03-04 09:00:12 -  > Optimizing table players_online... [success]
+2021-03-04 09:00:12 -  > Optimizing table tile_store... [success]
+2021-03-04 09:00:12 -  >> Loading vocations
+2021-03-04 09:00:12 -  >> Loading items
+2021-03-04 09:00:12 -  >> Loading script systems
+2021-03-04 09:00:12 -  >> Loading lua libs
+2021-03-04 09:00:13 -  >> Loading event scheduler
+2021-03-04 09:00:13 -  >> Loading lua scripts
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6500 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6501 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6503 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6550 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6570 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6661 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6662 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6663 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6664 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6665 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6666 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6678 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6693 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6697 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6698 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6699 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6701 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6702 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6703 in range from uid: 5000, to uid: 12000
+2021-03-04 09:00:13 -  >> Loading lua monsters
+2021-03-04 09:00:14 -  >> Loading outfits
+2021-03-04 09:00:14 -  >> Loading familiars
+2021-03-04 09:00:14 -  >> Boosted creature: Ogre Rowdy
+2021-03-04 09:00:14 -  >> Checking world type... PVP
+2021-03-04 09:00:14 -  >> Loading map
+2021-03-04 09:00:17 -  > Map size: 34143x33812
+2021-03-04 09:00:24 -  > Duplicate unique id: 6664
+2021-03-04 09:00:25 -  > Map loading time: 11.384 seconds
+2021-03-04 09:00:26 -  > Loaded spawns in: 11.917 seconds
+2021-03-04 09:00:26 -  > Loaded house items in: 0.018 seconds
+2021-03-04 09:00:26 -  >> Initializing gamestate
+2021-03-04 09:00:30 -  >> Nightmare Isle will be active north of Darashia today
+2021-03-04 09:00:30 -  >> Fury Gate will be active in Port Hope today
+2021-03-04 09:00:30 -  >> Rashid arrived at Thursdays destination.
+2021-03-04 09:00:30 -  >> Loading map attributes
+2021-03-04 09:00:30 -  > Loaded 967 npcs and spawned 74141 monsters
+2021-03-04 09:00:30 -  > Loaded 26 towns with 984 houses in total
+2021-03-04 09:00:30 -  >> Wrong item id found
+2021-03-04 09:00:30 -  > Sign id: 11, item id: 1406
+2021-03-04 09:00:30 -  > Loaded 14 signs in the map
+2021-03-04 09:00:30 -  > Loaded 37 books and documents in the map
+2021-03-04 09:00:30 -  >> Wrong item id found
+2021-03-04 09:00:30 -  > Action id: 14900, item id: 22821
+2021-03-04 09:00:30 -  >> Wrong item id found
+2021-03-04 09:00:30 -  > Unique id: 30026, item id: 10044
+2021-03-04 09:00:30 -  > Loaded all actions in the map
+2021-03-04 09:00:30 -  > Loaded all uniques in the map
+2021-03-04 09:00:30 -  >> Loading custom map
+2021-03-04 09:00:30 -  > Loaded otservbr-custom map
+2021-03-04 09:00:30 -  >> Yasir: ankrahmun. 
+2021-03-04 09:00:30 -  >> Loaded all modules, server starting up...
+2021-03-04 09:00:30 -  > Warning: OTServBR - Global has been executed as root user, please consider running it as a normal user.
+2021-03-04 09:00:30 -  >> Divine-Global Server Online!
+2021-03-04 09:00:30 -  
+2021-03-04 09:00:30 -  > Map size: 34143x33812
+2021-03-04 09:00:30 -  > Map loading time: 0.053 seconds
+2021-03-04 09:00:30 -  > Map size: 32537x32719
+2021-03-04 09:00:30 -  > Map loading time: 0 seconds
+2021-03-04 09:00:30 -  > Map size: 34143x33812
+2021-03-04 09:00:30 -  > Map loading time: 0.063 seconds
+2021-03-04 09:00:30 -  > Map size: 33760x33023
+2021-03-04 09:00:30 -  > Map loading time: 0.002 seconds
+2021-03-04 11:29:29 -  > Loaded otservbr-custom spawn
+2021-03-04 11:29:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 11:29:29 -  > NPC Ghostly Wolf added!
+2021-03-04 11:29:29 -  > NPC Talila added!
+2021-03-04 11:29:29 -  > NPC Valindara removed!
+2021-03-04 11:29:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 11:29:29 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 11:29:29 -  > NPC Ghostly Wolf removed!
+2021-03-04 11:29:29 -  > NPC Talila removed!
+2021-03-04 11:29:29 -  > NPC Valindara added!
+2021-03-04 11:29:29 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 11:29:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 11:29:29 -  > NPC Ghostly Wolf added!
+2021-03-04 11:29:29 -  > NPC Talila added!
+2021-03-04 11:29:29 -  > NPC Valindara removed!
+2021-03-04 11:29:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 11:29:29 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 11:29:29 -  > NPC Ghostly Wolf removed!
+2021-03-04 11:29:29 -  > NPC Talila removed!
+2021-03-04 11:29:29 -  > NPC Valindara added!
+2021-03-04 11:29:29 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 11:29:29 -  > Broadcasted message: "Barbarians are gathering at Bittermor.   They seem to be up to something.".
+2021-03-04 11:29:49 -  > Broadcasted message: "The barbarian pack is roaming around in Bittermor.".
+2021-03-04 12:22:41 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 12:22:41 -  > NPC Ghostly Wolf added!
+2021-03-04 12:22:41 -  > NPC Talila added!
+2021-03-04 12:22:41 -  > NPC Valindara removed!
+2021-03-04 12:22:41 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 12:22:41 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 12:22:41 -  > NPC Ghostly Wolf removed!
+2021-03-04 12:22:41 -  > NPC Talila removed!
+2021-03-04 12:22:41 -  > NPC Valindara added!
+2021-03-04 12:22:41 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 12:22:41 -  > ERROR: Failed to save account: O9I8U7Y6T5!
+2021-03-04 12:22:46 -  Burlockwolf has logged in. | Client: 11
+2021-03-04 12:23:22 -  Burlockwolf has logged out. | Client: 11
+2021-03-04 12:23:24 -  Moon Phisthys has logged in. | Client: 11
+2021-03-04 12:24:02 -  Moon Phisthys has logged out. | Client: 11
+2021-03-04 14:15:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 14:15:30 -  > NPC Ghostly Wolf added!
+2021-03-04 14:15:30 -  > NPC Talila added!
+2021-03-04 14:15:30 -  > NPC Valindara removed!
+2021-03-04 14:15:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 14:15:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 14:15:30 -  > NPC Ghostly Wolf removed!
+2021-03-04 14:15:30 -  > NPC Talila removed!
+2021-03-04 14:15:30 -  > NPC Valindara added!
+2021-03-04 14:15:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 14:15:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 14:15:30 -  > NPC Ghostly Wolf added!
+2021-03-04 14:15:30 -  > NPC Talila added!
+2021-03-04 14:15:30 -  > NPC Valindara removed!
+2021-03-04 14:15:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 14:15:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 14:15:30 -  > NPC Ghostly Wolf removed!
+2021-03-04 14:15:30 -  > NPC Talila removed!
+2021-03-04 14:15:30 -  > NPC Valindara added!
+2021-03-04 14:15:30 -  > Broadcasted message: "Beware! Mawhawk!".
+2021-03-04 14:32:43 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 14:32:43 -  Supimpa has logged in. | Client: 11
+2021-03-04 14:39:13 -  Supimpa has logged out. | Client: 11
+2021-03-04 15:45:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 15:45:30 -  > NPC Ghostly Wolf added!
+2021-03-04 15:45:30 -  > NPC Talila added!
+2021-03-04 15:45:30 -  > NPC Valindara removed!
+2021-03-04 15:45:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 15:45:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 15:45:30 -  > NPC Ghostly Wolf removed!
+2021-03-04 15:45:30 -  > NPC Talila removed!
+2021-03-04 15:45:30 -  > NPC Valindara added!
+2021-03-04 15:45:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 15:45:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 15:45:30 -  > NPC Ghostly Wolf added!
+2021-03-04 15:45:30 -  > NPC Talila added!
+2021-03-04 15:45:30 -  > NPC Valindara removed!
+2021-03-04 15:45:30 -  > Broadcasted message: "Forrest animals spread out close to Ab'Dendriel!".
+2021-03-04 16:52:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 16:52:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 16:52:30 -  > NPC Ghostly Wolf removed!
+2021-03-04 16:52:30 -  > NPC Talila removed!
+2021-03-04 16:52:30 -  > NPC Valindara added!
+2021-03-04 16:52:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 16:52:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 16:52:30 -  > NPC Ghostly Wolf added!
+2021-03-04 16:52:30 -  > NPC Talila added!
+2021-03-04 16:52:30 -  > NPC Valindara removed!
+2021-03-04 16:52:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 16:52:30 -  > Broadcasted message: "Feverish Citizens are invading the streets of Venore!".
+2021-03-04 17:07:30 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have    descended to Zao to protect the lizardkin!".
+2021-03-04 17:57:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 17:57:30 -  > NPC Ghostly Wolf removed!
+2021-03-04 17:57:30 -  > NPC Talila removed!
+2021-03-04 17:57:30 -  > NPC Valindara added!
+2021-03-04 17:57:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 17:57:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 17:57:30 -  > NPC Ghostly Wolf added!
+2021-03-04 17:57:30 -  > NPC Talila added!
+2021-03-04 17:57:30 -  > NPC Valindara removed!
+2021-03-04 17:57:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 17:57:30 -  > Broadcasted message: "There seems to be a big gnarlhoud gang in Zao Steppe.".
+2021-03-04 17:57:49 -  > Broadcasted message: "The gnarlhounds seem to multiply by the minute.".
+2021-03-04 17:59:29 -  > Broadcasted message: "The gnarlhounds roam free in the Zao Steppe. Watch out!".
+2021-03-04 18:53:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 18:53:30 -  > NPC Ghostly Wolf removed!
+2021-03-04 18:53:30 -  > NPC Talila removed!
+2021-03-04 18:53:30 -  > NPC Valindara added!
+2021-03-04 18:53:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 18:53:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 18:53:30 -  > NPC Ghostly Wolf added!
+2021-03-04 18:53:30 -  > NPC Talila added!
+2021-03-04 18:53:30 -  > NPC Valindara removed!
+2021-03-04 18:53:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 18:53:30 -  > Broadcasted message: "Let da mashing begin! Cyclops riot east of Thais.".
+2021-03-04 19:32:45 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 19:32:45 -  > NPC Ghostly Wolf removed!
+2021-03-04 19:32:45 -  > NPC Talila removed!
+2021-03-04 19:32:45 -  > NPC Valindara added!
+2021-03-04 19:32:45 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 19:32:45 -  Bryan Fox Moon has logged in. | Client: 12.61
+2021-03-04 19:33:27 -  Bryan Fox Moon has logged out. | Client: 12.61
+2021-03-04 19:37:00 -  Bryan Fox Moon has logged in. | Client: 12.61
+2021-03-04 19:58:04 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 19:58:04 -  > NPC Ghostly Wolf added!
+2021-03-04 19:58:04 -  > NPC Talila added!
+2021-03-04 19:58:04 -  > NPC Valindara removed!
+2021-03-04 19:58:04 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 19:58:04 -  Bryan Fox Moon has logged out. | Client: 12.61
+2021-03-04 19:58:27 -  Bryan Fox Moon has logged in. | Client: 12.61
+2021-03-04 20:36:11 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 20:36:11 -  > NPC Ghostly Wolf removed!
+2021-03-04 20:36:11 -  > NPC Talila removed!
+2021-03-04 20:36:11 -  > NPC Valindara added!
+2021-03-04 20:36:11 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 20:36:11 -  
+2021-03-04 20:36:11 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:36:11 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:36:11 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:36:11 -  stack traceback:
+2021-03-04 20:36:11 -  	[C]: in function '__index'
+2021-03-04 20:36:11 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:45:50 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-04 20:45:50 -  > NPC Ghostly Wolf added!
+2021-03-04 20:45:50 -  > NPC Talila added!
+2021-03-04 20:45:50 -  > NPC Valindara removed!
+2021-03-04 20:45:50 -  
+2021-03-04 20:45:50 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:45:50 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:45:50 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:45:50 -  stack traceback:
+2021-03-04 20:45:50 -  	[C]: in function '__index'
+2021-03-04 20:45:50 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:45:51 -  
+2021-03-04 20:45:51 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:45:51 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:45:51 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:45:51 -  stack traceback:
+2021-03-04 20:45:51 -  	[C]: in function '__index'
+2021-03-04 20:45:51 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:45:57 -  
+2021-03-04 20:45:57 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:45:57 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:45:57 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:45:57 -  stack traceback:
+2021-03-04 20:45:57 -  	[C]: in function '__index'
+2021-03-04 20:45:57 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:46:00 -  
+2021-03-04 20:46:00 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:46:00 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:46:00 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:46:00 -  stack traceback:
+2021-03-04 20:46:00 -  	[C]: in function '__index'
+2021-03-04 20:46:00 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:47:57 -  
+2021-03-04 20:47:57 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:47:57 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:47:57 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:47:57 -  stack traceback:
+2021-03-04 20:47:57 -  	[C]: in function '__index'
+2021-03-04 20:47:57 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:48:04 -  
+2021-03-04 20:48:04 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:48:04 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:48:04 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:48:04 -  stack traceback:
+2021-03-04 20:48:04 -  	[C]: in function '__index'
+2021-03-04 20:48:04 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 20:48:39 -  
+2021-03-04 20:48:39 -  Lua Script Error: [Scripts Interface] 
+2021-03-04 20:48:39 -  /home/otbr10/data/scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:callback
+2021-03-04 20:48:39 -  .../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: attempt to index global 'item2' (a nil value)
+2021-03-04 20:48:39 -  stack traceback:
+2021-03-04 20:48:39 -  	[C]: in function '__index'
+2021-03-04 20:48:39 -  	.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:45: in function <.../scripts/actions/quests/the_cursed_crystal/MedusaOil.lua:9>
+2021-03-04 21:39:18 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-04 21:39:18 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-04 21:39:18 -  > NPC Ghostly Wolf removed!
+2021-03-04 21:39:18 -  > NPC Talila removed!
+2021-03-04 21:39:18 -  > NPC Valindara added!
+2021-03-04 21:39:18 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-04 21:39:18 -  Bryan Fox Moon has logged out. | Client: 12.61
+2021-03-05 00:05:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 00:05:02 -  > NPC Ghostly Wolf added!
+2021-03-05 00:05:02 -  > NPC Talila added!
+2021-03-05 00:05:02 -  > NPC Valindara removed!
+2021-03-05 00:05:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 00:05:02 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 00:05:02 -  > NPC Ghostly Wolf removed!
+2021-03-05 00:05:02 -  > NPC Talila removed!
+2021-03-05 00:05:02 -  > NPC Valindara added!
+2021-03-05 00:05:02 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 00:05:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 00:05:02 -  > NPC Ghostly Wolf added!
+2021-03-05 00:05:02 -  > NPC Talila added!
+2021-03-05 00:05:02 -  > NPC Valindara removed!
+2021-03-05 00:05:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 00:05:02 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 00:05:02 -  > NPC Ghostly Wolf removed!
+2021-03-05 00:05:02 -  > NPC Talila removed!
+2021-03-05 00:05:02 -  > NPC Valindara added!
+2021-03-05 00:05:02 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 00:05:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 00:05:02 -  > NPC Ghostly Wolf added!
+2021-03-05 00:05:02 -  > NPC Talila added!
+2021-03-05 00:05:02 -  > NPC Valindara removed!
+2021-03-05 00:05:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 00:05:02 -  >> Rashid is traveling to Fridays location.
+2021-03-05 00:05:02 -  Bryan Fox Moon has logged in. | Client: 12.61
+2021-03-05 00:10:00 -  > ERROR: Failed to save account: O9I8U7Y6T5!
+2021-03-05 00:10:05 -  Moon Phisthys has logged in. | Client: 11
+2021-03-05 00:27:45 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 00:27:45 -  > NPC Ghostly Wolf removed!
+2021-03-05 00:27:45 -  > NPC Talila removed!
+2021-03-05 00:27:45 -  > NPC Valindara added!
+2021-03-05 00:27:45 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 00:27:45 -  Moon Phisthys has logged out. | Client: 11
+2021-03-05 00:31:12 -  Bryan Fox Moon has logged out. | Client: 0
+2021-03-05 00:57:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 00:57:30 -  > NPC Ghostly Wolf added!
+2021-03-05 00:57:30 -  > NPC Talila added!
+2021-03-05 00:57:30 -  > NPC Valindara removed!
+2021-03-05 00:57:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 00:57:30 -  > Broadcasted message: "Hunters on the hunt north of the Green Claw Swamp.".
+2021-03-05 01:45:48 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 01:45:48 -  > NPC Ghostly Wolf removed!
+2021-03-05 01:45:48 -  > NPC Talila removed!
+2021-03-05 01:45:48 -  > NPC Valindara added!
+2021-03-05 01:45:48 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 01:45:48 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 01:45:48 -  > NPC Ghostly Wolf added!
+2021-03-05 01:45:48 -  > NPC Talila added!
+2021-03-05 01:45:48 -  > NPC Valindara removed!
+2021-03-05 01:45:48 -  Forfun has logged in. | Client: 12.61
+2021-03-05 01:46:00 -  Forfun has logged out. | Client: 12.61
+2021-03-05 01:46:01 -  Devil has logged in. | Client: 12.61
+2021-03-05 01:46:04 -  Devil has logged out. | Client: 12.61
+2021-03-05 01:46:05 -  Pacific has logged in. | Client: 12.61
+2021-03-05 01:46:07 -  Pacific has logged out. | Client: 12.61
+2021-03-05 01:46:08 -  Devil has logged in. | Client: 12.61
+2021-03-05 02:10:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 02:10:30 -  > Broadcasted message: "Nomad scouts have been sighted close to the gates to Ankrahmun.".
+2021-03-05 02:11:04 -  > Broadcasted message: "The desert nomads are launching a full scale attack on Ankrahmun.   Some might even have slipped through the defences.".
+2021-03-05 02:51:06 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 02:51:06 -  > NPC Ghostly Wolf removed!
+2021-03-05 02:51:06 -  > NPC Talila removed!
+2021-03-05 02:51:06 -  > NPC Valindara added!
+2021-03-05 02:51:06 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 02:51:06 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 02:51:06 -  > NPC Ghostly Wolf added!
+2021-03-05 02:51:06 -  > NPC Talila added!
+2021-03-05 02:51:06 -  > NPC Valindara removed!
+2021-03-05 02:51:06 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 02:51:06 -  Devil has logged out. | Client: 12.61
+2021-03-05 05:40:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 05:40:30 -  > NPC Ghostly Wolf removed!
+2021-03-05 05:40:30 -  > NPC Talila removed!
+2021-03-05 05:40:30 -  > NPC Valindara added!
+2021-03-05 05:40:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 05:40:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 05:40:30 -  > NPC Ghostly Wolf added!
+2021-03-05 05:40:30 -  > NPC Talila added!
+2021-03-05 05:40:30 -  > NPC Valindara removed!
+2021-03-05 05:40:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 05:40:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 05:40:30 -  > NPC Ghostly Wolf removed!
+2021-03-05 05:40:30 -  > NPC Talila removed!
+2021-03-05 05:40:30 -  > NPC Valindara added!
+2021-03-05 05:40:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 05:40:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 05:40:30 -  > NPC Ghostly Wolf added!
+2021-03-05 05:40:30 -  > NPC Talila added!
+2021-03-05 05:40:30 -  > NPC Valindara removed!
+2021-03-05 05:40:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 05:40:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 05:40:30 -  > NPC Ghostly Wolf removed!
+2021-03-05 05:40:30 -  > NPC Talila removed!
+2021-03-05 05:40:30 -  > NPC Valindara added!
+2021-03-05 05:40:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 05:40:30 -  > Broadcasted message: "Beware of Tyrn!".
+2021-03-05 09:00:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf added!
+2021-03-05 09:00:02 -  > NPC Talila added!
+2021-03-05 09:00:02 -  > NPC Valindara removed!
+2021-03-05 09:00:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 09:00:02 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf removed!
+2021-03-05 09:00:02 -  > NPC Talila removed!
+2021-03-05 09:00:02 -  > NPC Valindara added!
+2021-03-05 09:00:02 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 09:00:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf added!
+2021-03-05 09:00:02 -  > NPC Talila added!
+2021-03-05 09:00:02 -  > NPC Valindara removed!
+2021-03-05 09:00:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 09:00:02 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf removed!
+2021-03-05 09:00:02 -  > NPC Talila removed!
+2021-03-05 09:00:02 -  > NPC Valindara added!
+2021-03-05 09:00:02 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 09:00:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf added!
+2021-03-05 09:00:02 -  > NPC Talila added!
+2021-03-05 09:00:02 -  > NPC Valindara removed!
+2021-03-05 09:00:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 09:00:02 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf removed!
+2021-03-05 09:00:02 -  > NPC Talila removed!
+2021-03-05 09:00:02 -  > NPC Valindara added!
+2021-03-05 09:00:02 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-05 09:00:02 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-05 09:00:02 -  > NPC Ghostly Wolf added!
+2021-03-05 09:00:02 -  > NPC Talila added!
+2021-03-05 09:00:02 -  > NPC Valindara removed!
+2021-03-05 09:00:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-05 09:00:02 -  >> Saving Hirelings
+2021-03-05 09:00:02 -  Saving server...
+2021-03-05 09:00:03 -  > Saved house items in: 0.489 seconds
+2021-03-05 09:00:04 -  Shutting down... done!

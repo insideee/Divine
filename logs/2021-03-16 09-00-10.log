@@ -1,0 +1,222 @@
+2021-03-16 09:00:11 -  OTServBR - Global - Version TFS 1.3
+2021-03-16 09:00:11 -  
+2021-03-16 09:00:11 -  Compiled with GNU C++ version 9.3.0
+2021-03-16 09:00:11 -  Compiled on Mar 13 2021 04:41:45 for platform x64
+2021-03-16 09:00:11 -  Linked with LuaJIT 2.1.0-beta3 for Lua support
+2021-03-16 09:00:11 -  
+2021-03-16 09:00:11 -  A server developed by OTServBR, Mark Samman and The Forgotten Server Developers
+2021-03-16 09:00:11 -  Visit our forum for updates, support, and resources: https://otserv.com.br/ and https://forums.otserv.com.br
+2021-03-16 09:00:11 -  
+2021-03-16 09:00:11 -  >> Loading config
+2021-03-16 09:00:11 -  >> Client Version: 12.60
+2021-03-16 09:00:11 -  >> Establishing database connection... MySQL 10.3.25
+2021-03-16 09:00:11 -  >> Running database manager
+2021-03-16 09:00:11 -  > Optimizing table player_items... [success]
+2021-03-16 09:00:12 -  > Optimizing table player_storage... [success]
+2021-03-16 09:00:12 -  > Optimizing table players_online... [success]
+2021-03-16 09:00:13 -  > Optimizing table tile_store... [success]
+2021-03-16 09:00:13 -  >> Loading vocations
+2021-03-16 09:00:13 -  >> Loading items
+2021-03-16 09:00:13 -  >> Loading script systems
+2021-03-16 09:00:13 -  >> Loading lua libs
+2021-03-16 09:00:14 -  >> Loading event scheduler
+2021-03-16 09:00:14 -  > Double Coins  event exp: 0%, loot: 0%, spawn: 0%, skill: 0%.
+2021-03-16 09:00:14 -  [Warning - GlobalEvents::configureEvent] Duplicate registered globalevent with name: 
+2021-03-16 09:00:14 -  [Warning - GlobalEvents::configureEvent] Duplicate registered globalevent with name: 
+2021-03-16 09:00:14 -  > Double Skill! event exp: 0%, loot: 0%, spawn: 0%, skill: 200%.
+2021-03-16 09:00:14 -  >> Loading lua scripts
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6500 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6501 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6503 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6550 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6570 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6661 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6662 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6663 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6664 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6665 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6666 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6678 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6693 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6697 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6698 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6699 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6701 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6702 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6703 in range from uid: 5000, to uid: 12000
+2021-03-16 09:00:14 -  >> Loading lua monsters
+2021-03-16 09:00:14 -  [Warning - Loot:setId] Unknown loot item "spectral scrap of cloth". 
+2021-03-16 09:00:14 -  [Warning - end] Monster: "The Pale Worm" loot could not correctly be load.
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Pale Worm - Unknown spell name: summonsthepaleworm
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - A Weak Spot - Unknown spell name: aweakspotdeathue
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - A Weak Spot - Unknown spell name: summonsaweakspot
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Dread Maiden - Unknown spell name: maidenring
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Dread Maiden - Unknown spell name: summonsthedreadmaiden
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - Horror - Unknown spell name: cakeheal
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - Symbol of Fear - Unknown spell name: symboloffearue
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Fear Feaster - Unknown spell name: deathring1x1
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Fear Feaster - Unknown spell name: deathring2x2
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Fear Feaster - Unknown spell name: deathring3x3
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - Brother Worm - Unknown spell name: lifesteal
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Unwelcome - Unknown spell name: lifesteal
+2021-03-16 09:00:14 -  [Error - Monsters::deserializeSpell] - The Unwelcome - Unknown spell name: summonstheunwelcome
+2021-03-16 09:00:14 -  >> Loading outfits
+2021-03-16 09:00:14 -  >> Loading familiars
+2021-03-16 09:00:14 -  >> Boosted creature: Iron Servant Replica
+2021-03-16 09:00:14 -  >> Checking world type... PVP
+2021-03-16 09:00:14 -  >> Loading map
+2021-03-16 09:00:17 -  > Map size: 34143x33812
+2021-03-16 09:00:23 -  > Duplicate unique id: 6664
+2021-03-16 09:00:25 -  > Map loading time: 10.905 seconds
+2021-03-16 09:00:26 -  > Loaded spawns in: 11.495 seconds
+2021-03-16 09:00:26 -  > Loaded house items in: 0.025 seconds
+2021-03-16 09:00:26 -  >> Initializing gamestate
+2021-03-16 09:00:30 -  >> Nightmare Isle will be active west of Darashia today
+2021-03-16 09:00:30 -  >> Fury Gate will be active in Ab'dendriel today
+2021-03-16 09:00:30 -  >> Rashid arrived at Tuesdays destination.
+2021-03-16 09:00:30 -  >> Loading map attributes
+2021-03-16 09:00:30 -  > Loaded 967 npcs and spawned 74141 monsters
+2021-03-16 09:00:30 -  > Loaded 26 towns with 984 houses in total
+2021-03-16 09:00:30 -  >> Wrong item id found
+2021-03-16 09:00:30 -  > Sign id: 11, item id: 1406
+2021-03-16 09:00:30 -  > Loaded 14 signs in the map
+2021-03-16 09:00:30 -  > Loaded 37 books and documents in the map
+2021-03-16 09:00:30 -  >> Wrong item id found
+2021-03-16 09:00:30 -  > Action id: 14900, item id: 22821
+2021-03-16 09:00:30 -  >> Wrong item id found
+2021-03-16 09:00:30 -  > Unique id: 30026, item id: 10044
+2021-03-16 09:00:30 -  > Loaded all actions in the map
+2021-03-16 09:00:30 -  > Loaded all uniques in the map
+2021-03-16 09:00:30 -  >> Spawning Hirelings
+2021-03-16 09:00:30 -  >> Loading custom map
+2021-03-16 09:00:30 -  > Loaded otservbr-custom map
+2021-03-16 09:00:30 -  >> Yasir: not this time
+2021-03-16 09:00:30 -  >> Loaded all modules, server starting up...
+2021-03-16 09:00:30 -  > Warning: OTServBR - Global has been executed as root user, please consider running it as a normal user.
+2021-03-16 09:00:30 -  >> Divine-Global Server Online!
+2021-03-16 09:00:30 -  
+2021-03-16 09:00:30 -  > Map size: 34143x33812
+2021-03-16 09:00:30 -  > Map loading time: 0.002 seconds
+2021-03-16 09:00:30 -  > Map size: 32684x31728
+2021-03-16 09:00:30 -  > Map loading time: 0 seconds
+2021-03-16 09:00:30 -  > Map size: 34143x33812
+2021-03-16 09:00:30 -  > Map loading time: 0.06 seconds
+2021-03-16 09:04:23 -  > Loaded otservbr-custom spawn
+2021-03-16 09:04:23 -  ADM inside has logged in. | Client: 11
+2021-03-16 09:05:31 -  > ERROR: Failed to save account: COXINHA!
+2021-03-16 09:05:33 -  Supimpa has logged in. | Client: 11
+2021-03-16 09:06:15 -  GM coxinha has logged in. | Client: 11
+2021-03-16 09:07:18 -  > ERROR: Failed to save account: VITORIA!
+2021-03-16 09:07:20 -  Ronalee Tanker has logged in. | Client: 11
+2021-03-16 09:08:10 -  Ronalee Lovexp has logged in. | Client: 11
+2021-03-16 09:09:11 -  Ronalee Lovexp has logged out. | Client: 0
+2021-03-16 09:09:27 -  Ronalee Lovexp has logged in. | Client: 11
+2021-03-16 09:10:04 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-16 09:11:14 -  Secreto has logged in. | Client: 12.61
+2021-03-16 11:00:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 11:00:29 -  > NPC Ghostly Wolf added!
+2021-03-16 11:00:29 -  > NPC Talila added!
+2021-03-16 11:00:29 -  > NPC Valindara removed!
+2021-03-16 11:00:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 11:00:29 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 11:00:29 -  > NPC Ghostly Wolf removed!
+2021-03-16 11:00:29 -  > NPC Talila removed!
+2021-03-16 11:00:29 -  > NPC Valindara added!
+2021-03-16 11:00:29 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 11:00:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 11:00:29 -  > NPC Ghostly Wolf added!
+2021-03-16 11:00:29 -  > NPC Talila added!
+2021-03-16 11:00:29 -  > NPC Valindara removed!
+2021-03-16 11:00:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 11:00:29 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have    descended to Zao to protect the lizardkin!".
+2021-03-16 11:25:14 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 11:25:14 -  > NPC Ghostly Wolf removed!
+2021-03-16 11:25:14 -  > NPC Talila removed!
+2021-03-16 11:25:14 -  > NPC Valindara added!
+2021-03-16 11:25:14 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 11:25:14 -  Ekgolpeafullz has logged in. | Client: 12.61
+2021-03-16 11:25:39 -  Dudagolpefullz has logged in. | Client: 12.61
+2021-03-16 11:29:16 -  Secreto has logged out. | Client: 12.61
+2021-03-16 11:29:17 -  Secreto has logged in. | Client: 12.61
+2021-03-16 12:16:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 12:16:29 -  > NPC Ghostly Wolf added!
+2021-03-16 12:16:29 -  > NPC Talila added!
+2021-03-16 12:16:29 -  > NPC Valindara removed!
+2021-03-16 12:16:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 12:16:29 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 12:16:29 -  > NPC Ghostly Wolf removed!
+2021-03-16 12:16:29 -  > NPC Talila removed!
+2021-03-16 12:16:29 -  > NPC Valindara added!
+2021-03-16 12:16:29 -  > Broadcasted message: "Forrest animals spread out close to Ab'Dendriel!".
+2021-03-16 12:20:38 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 12:20:38 -  189.49.54.250 disconnected for exceeding packet per second limit.
+2021-03-16 12:21:29 -  Secreto has logged out. | Client: 12.61
+2021-03-16 12:21:30 -  Secreto has logged in. | Client: 12.61
+2021-03-16 12:31:35 -  Joined has logged in. | Client: 12.61
+2021-03-16 12:41:50 -  Joined has logged out. | Client: 0
+2021-03-16 12:44:06 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 12:44:06 -  > NPC Ghostly Wolf added!
+2021-03-16 12:44:06 -  > NPC Talila added!
+2021-03-16 12:44:06 -  > NPC Valindara removed!
+2021-03-16 12:44:06 -  Maria De Lourdes has logged in. | Client: 12.61
+2021-03-16 12:44:15 -  Maria De Lourdes has logged out. | Client: 12.61
+2021-03-16 12:44:17 -  Juana Dacura has logged in. | Client: 12.61
+2021-03-16 12:47:44 -  Moon Phisthys has logged in. | Client: 11
+2021-03-16 12:53:18 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 12:53:18 -  Juana Dacura has logged out. | Client: 12.61
+2021-03-16 13:04:46 -  Moon Phisthys has logged out. | Client: 11
+2021-03-16 13:16:02 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 13:16:02 -  > NPC Ghostly Wolf removed!
+2021-03-16 13:16:02 -  > NPC Talila removed!
+2021-03-16 13:16:02 -  > NPC Valindara added!
+2021-03-16 13:16:02 -  Secreto has logged out. | Client: 12.61
+2021-03-16 13:16:04 -  Secreto has logged in. | Client: 12.61
+2021-03-16 15:09:49 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 15:09:49 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 15:09:49 -  > NPC Ghostly Wolf added!
+2021-03-16 15:09:49 -  > NPC Talila added!
+2021-03-16 15:09:49 -  > NPC Valindara removed!
+2021-03-16 15:09:49 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 15:09:49 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 15:09:49 -  > NPC Ghostly Wolf removed!
+2021-03-16 15:09:49 -  > NPC Talila removed!
+2021-03-16 15:09:49 -  > NPC Valindara added!
+2021-03-16 15:09:49 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 15:09:49 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 15:09:49 -  > NPC Ghostly Wolf added!
+2021-03-16 15:09:49 -  > NPC Talila added!
+2021-03-16 15:09:49 -  > NPC Valindara removed!
+2021-03-16 15:09:49 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 15:09:49 -  Gabriela Paladina has logged in. | Client: 12.61
+2021-03-16 15:15:29 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 15:15:29 -  > NPC Ghostly Wolf removed!
+2021-03-16 15:15:29 -  > NPC Talila removed!
+2021-03-16 15:15:29 -  > NPC Valindara added!
+2021-03-16 15:15:29 -  > Broadcasted message: "There is a sudden rise in ice golem population in Formogar mines.".
+2021-03-16 15:15:49 -  > Broadcasted message: "More ice golems in Svargrond!".
+2021-03-16 16:48:29 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 16:48:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 16:48:29 -  > NPC Ghostly Wolf added!
+2021-03-16 16:48:29 -  > NPC Talila added!
+2021-03-16 16:48:29 -  > NPC Valindara removed!
+2021-03-16 16:48:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 16:48:29 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-16 16:48:29 -  > NPC Ghostly Wolf removed!
+2021-03-16 16:48:29 -  > NPC Talila removed!
+2021-03-16 16:48:29 -  > NPC Valindara added!
+2021-03-16 16:48:29 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-16 16:48:29 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-16 16:48:29 -  > NPC Ghostly Wolf added!
+2021-03-16 16:48:29 -  > NPC Talila added!
+2021-03-16 16:48:29 -  > NPC Valindara removed!
+2021-03-16 16:48:29 -  > Broadcasted message: "Unusual frequent scarab sightings at the gates of Ankrahmun".
+2021-03-16 16:49:29 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-16 16:49:29 -  > Broadcasted message: "Ancient scarabs are leading an attack on Ankrahmun.".
+2021-03-16 17:11:43 -  Ratugo has logged in. | Client: 12.61
+2021-03-16 17:11:51 -  Ratugo has logged out. | Client: 12.61
+2021-03-16 17:11:53 -  Lanturna has logged in. | Client: 12.61
+2021-03-16 17:11:59 -  Lanturna has logged out. | Client: 12.61
+2021-03-16 17:12:00 -  Garapa has logged in. | Client: 12.61
+2021-03-16 17:12:04 -  Garapa has logged out. | Client: 12.61
+2021-03-16 17:12:05 -  Bombrilli has logged in. | Client: 12.61
+2021-03-16 17:12:06 -  Bombrilli has logged out. | Client: 12.61

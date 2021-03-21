@@ -1,0 +1,819 @@
+2021-03-07 09:00:11 -  OTServBR - Global - Version TFS 1.3
+2021-03-07 09:00:11 -  
+2021-03-07 09:00:11 -  Compiled with GNU C++ version 9.3.0
+2021-03-07 09:00:11 -  Compiled on Feb 27 2021 08:04:53 for platform x64
+2021-03-07 09:00:11 -  Linked with LuaJIT 2.1.0-beta3 for Lua support
+2021-03-07 09:00:11 -  
+2021-03-07 09:00:11 -  A server developed by OTServBR, Mark Samman and The Forgotten Server Developers
+2021-03-07 09:00:11 -  Visit our forum for updates, support, and resources: https://otserv.com.br/ and https://forums.otserv.com.br
+2021-03-07 09:00:11 -  
+2021-03-07 09:00:11 -  >> Loading config
+2021-03-07 09:00:11 -  >> Client Version: 12.60
+2021-03-07 09:00:11 -  >> Establishing database connection... MySQL 10.3.25
+2021-03-07 09:00:11 -  >> Running database manager
+2021-03-07 09:00:12 -  > Optimizing table player_storage... [success]
+2021-03-07 09:00:12 -  > Optimizing table players_online... [success]
+2021-03-07 09:00:13 -  > Optimizing table tile_store... [success]
+2021-03-07 09:00:13 -  >> Loading vocations
+2021-03-07 09:00:13 -  >> Loading items
+2021-03-07 09:00:13 -  >> Loading script systems
+2021-03-07 09:00:13 -  >> Loading lua libs
+2021-03-07 09:00:13 -  >> Loading event scheduler
+2021-03-07 09:00:13 -  >> Loading lua scripts
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6500 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6501 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6503 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6550 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6570 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6661 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6662 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6663 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6664 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6665 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6666 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6678 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6693 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6697 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6698 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6699 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6701 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6702 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6703 in range from uid: 5000, to uid: 12000
+2021-03-07 09:00:14 -  >> Loading lua monsters
+2021-03-07 09:00:14 -  >> Loading outfits
+2021-03-07 09:00:14 -  >> Loading familiars
+2021-03-07 09:00:14 -  >> Boosted creature: Modified Gnarlhound
+2021-03-07 09:00:14 -  >> Checking world type... PVP
+2021-03-07 09:00:14 -  >> Loading map
+2021-03-07 09:00:17 -  > Map size: 34143x33812
+2021-03-07 09:00:24 -  > Duplicate unique id: 6664
+2021-03-07 09:00:26 -  > Map loading time: 11.452 seconds
+2021-03-07 09:00:26 -  > Loaded spawns in: 12.029 seconds
+2021-03-07 09:00:27 -  > Loaded house items in: 0.021 seconds
+2021-03-07 09:00:27 -  >> Initializing gamestate
+2021-03-07 09:00:30 -  >> Nightmare Isle will be active north of Ankrahmun today
+2021-03-07 09:00:30 -  >> Fury Gate will be active in Venore today
+2021-03-07 09:00:30 -  >> Rashid arrived at Sundays destination.
+2021-03-07 09:00:30 -  >> Loading map attributes
+2021-03-07 09:00:30 -  > Loaded 967 npcs and spawned 74141 monsters
+2021-03-07 09:00:30 -  > Loaded 26 towns with 984 houses in total
+2021-03-07 09:00:30 -  >> Wrong item id found
+2021-03-07 09:00:30 -  > Sign id: 11, item id: 1406
+2021-03-07 09:00:30 -  > Loaded 14 signs in the map
+2021-03-07 09:00:30 -  > Loaded 37 books and documents in the map
+2021-03-07 09:00:30 -  >> Wrong item id found
+2021-03-07 09:00:30 -  > Action id: 14900, item id: 22821
+2021-03-07 09:00:30 -  >> Wrong item id found
+2021-03-07 09:00:30 -  > Unique id: 30026, item id: 10044
+2021-03-07 09:00:30 -  > Loaded all actions in the map
+2021-03-07 09:00:30 -  > Loaded all uniques in the map
+2021-03-07 09:00:30 -  >> Loading custom map
+2021-03-07 09:00:30 -  > Loaded otservbr-custom map
+2021-03-07 09:00:30 -  >> Yasir: not this time
+2021-03-07 09:00:30 -  >> Loaded all modules, server starting up...
+2021-03-07 09:00:30 -  > Warning: OTServBR - Global has been executed as root user, please consider running it as a normal user.
+2021-03-07 09:00:31 -  >> Divine-Global Server Online!
+2021-03-07 09:00:31 -  
+2021-03-07 09:00:31 -  > Map size: 34143x33812
+2021-03-07 09:00:31 -  > Map loading time: 0.003 seconds
+2021-03-07 09:00:31 -  > Map size: 32839x32092
+2021-03-07 09:00:31 -  > Map loading time: 0.001 seconds
+2021-03-07 09:00:31 -  > Map size: 34143x33812
+2021-03-07 09:00:31 -  > Map loading time: 0.066 seconds
+2021-03-07 09:03:14 -  > Loaded otservbr-custom spawn
+2021-03-07 09:03:14 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 10:13:57 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 10:13:57 -  > NPC Ghostly Wolf added!
+2021-03-07 10:13:57 -  > NPC Talila added!
+2021-03-07 10:13:57 -  > NPC Valindara removed!
+2021-03-07 10:13:57 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 10:13:57 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 10:13:59 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 10:33:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 10:33:30 -  > NPC Ghostly Wolf removed!
+2021-03-07 10:33:30 -  > NPC Talila removed!
+2021-03-07 10:33:30 -  > NPC Valindara added!
+2021-03-07 10:33:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 10:33:30 -  > Broadcasted message: "Beware! Mawhawk!".
+2021-03-07 11:01:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 11:01:30 -  > NPC Ghostly Wolf added!
+2021-03-07 11:01:30 -  > NPC Talila added!
+2021-03-07 11:01:30 -  > NPC Valindara removed!
+2021-03-07 11:01:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 11:01:30 -  > Broadcasted message: "There seems to be a big gnarlhoud gang in Zao Steppe.".
+2021-03-07 11:01:49 -  > Broadcasted message: "The gnarlhounds seem to multiply by the minute.".
+2021-03-07 11:03:30 -  > Broadcasted message: "The gnarlhounds roam free in the Zao Steppe. Watch out!".
+2021-03-07 11:08:52 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 11:10:43 -  Moon Phisthys has logged in. | Client: 11
+2021-03-07 11:13:51 -  Moon Phisthys has logged out. | Client: 11
+2021-03-07 11:19:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 11:19:30 -  > NPC Ghostly Wolf removed!
+2021-03-07 11:19:30 -  > NPC Talila removed!
+2021-03-07 11:19:30 -  > NPC Valindara added!
+2021-03-07 11:19:30 -  Ariel has logged in. | Client: 12.61
+2021-03-07 11:19:36 -  Ariel has logged out. | Client: 12.61
+2021-03-07 11:19:38 -  Forfun has logged in. | Client: 12.61
+2021-03-07 11:19:40 -  Forfun has logged out. | Client: 12.61
+2021-03-07 11:19:42 -  Pacific has logged in. | Client: 12.61
+2021-03-07 11:19:43 -  Pacific has logged out. | Client: 12.61
+2021-03-07 11:19:44 -  Devil has logged in. | Client: 12.61
+2021-03-07 11:19:49 -  Joana Duarco has logged out. | Client: 0
+2021-03-07 11:20:28 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 11:20:28 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 11:56:50 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 11:56:50 -  > NPC Ghostly Wolf added!
+2021-03-07 11:56:50 -  > NPC Talila added!
+2021-03-07 11:56:50 -  > NPC Valindara removed!
+2021-03-07 11:56:50 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 11:56:50 -  Ekgolpeafullz has logged in. | Client: 12.61
+2021-03-07 12:00:22 -  ADM inside has logged in. | Client: 12.61
+2021-03-07 12:01:25 -  Ronalee Lovexp has logged in. | Client: 12.61
+2021-03-07 12:13:55 -  GM coxinha has logged in. | Client: 12.61
+2021-03-07 12:15:01 -  Metiradaqui has logged in. | Client: 12.61
+2021-03-07 12:17:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 12:17:30 -  > NPC Ghostly Wolf removed!
+2021-03-07 12:17:30 -  > NPC Talila removed!
+2021-03-07 12:17:30 -  > NPC Valindara added!
+2021-03-07 12:17:30 -  
+2021-03-07 12:17:30 -  Lua Script Error: [Npc interface] 
+2021-03-07 12:17:30 -  (Unknown scriptfile)
+2021-03-07 12:17:30 -  data/npc/scripts/esrik.lua:178: attempt to perform arithmetic on field 'buyPrice' (a nil value)
+2021-03-07 12:17:30 -  stack traceback:
+2021-03-07 12:17:30 -  	[C]: in function '__mul'
+2021-03-07 12:17:30 -  	data/npc/scripts/esrik.lua:178: in function <data/npc/scripts/esrik.lua:167>
+2021-03-07 12:19:44 -  Metiradaqui has logged out. | Client: 0
+2021-03-07 12:20:16 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 12:20:16 -  Supimpa has logged in. | Client: 12.61
+2021-03-07 12:35:30 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have    descended to Zao to protect the lizardkin!".
+2021-03-07 12:38:21 -  Piruleite Tudo Tres has logged in. | Client: 12.61
+2021-03-07 12:41:51 -  Piruleite Tudo Tres has logged out. | Client: 12.61
+2021-03-07 12:42:06 -  Ekgolpeafullz has logged out. | Client: 12.61
+2021-03-07 12:42:06 -  Ekgolpeafullz has logged in. | Client: 12.61
+2021-03-07 13:01:08 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 13:01:08 -  > NPC Ghostly Wolf added!
+2021-03-07 13:01:08 -  > NPC Talila added!
+2021-03-07 13:01:08 -  > NPC Valindara removed!
+2021-03-07 13:01:08 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 13:01:08 -  Baconxd has logged in. | Client: 12.61
+2021-03-07 13:10:59 -  Juana Dumachado has logged out. | Client: 0
+2021-03-07 13:11:25 -  Joana Duarco has logged out. | Client: 0
+2021-03-07 13:12:29 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 13:12:39 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 13:16:03 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 13:16:03 -  > NPC Ghostly Wolf removed!
+2021-03-07 13:16:03 -  > NPC Talila removed!
+2021-03-07 13:16:03 -  > NPC Valindara added!
+2021-03-07 13:16:03 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 13:25:19 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 13:25:19 -  Babayaga has logged out. | Client: 12.61
+2021-03-07 13:25:21 -  Alucard has logged in. | Client: 12.61
+2021-03-07 13:35:05 -  Alucard has logged out. | Client: 12.61
+2021-03-07 13:35:07 -  Bryan Fox Moon has logged in. | Client: 12.61
+2021-03-07 13:35:57 -  Bryan Fox Moon has logged out. | Client: 12.61
+2021-03-07 13:35:58 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 13:38:39 -  Babayaga has logged out. | Client: 0
+2021-03-07 13:44:31 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 13:44:31 -  > NPC Ghostly Wolf added!
+2021-03-07 13:44:31 -  > NPC Talila added!
+2021-03-07 13:44:31 -  > NPC Valindara removed!
+2021-03-07 13:44:31 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 13:52:05 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 13:52:05 -  Juana Ducajado has logged in. | Client: 12.61
+2021-03-07 13:58:26 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 14:00:12 -  Babayaga has logged out. | Client: 12.61
+2021-03-07 14:00:14 -  Alucard has logged in. | Client: 12.61
+2021-03-07 14:19:06 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 14:19:06 -  > NPC Ghostly Wolf removed!
+2021-03-07 14:19:06 -  > NPC Talila removed!
+2021-03-07 14:19:06 -  > NPC Valindara added!
+2021-03-07 14:19:06 -  Alucard has logged out. | Client: 12.61
+2021-03-07 14:19:07 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 14:27:47 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 14:27:47 -  Babayaga has logged out. | Client: 12.61
+2021-03-07 14:27:52 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 14:31:09 -  Petronium has logged in. | Client: 12.61
+2021-03-07 14:33:17 -  Babayaga has logged out. | Client: 12.61
+2021-03-07 14:33:40 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 14:34:51 -  Babayaga has logged out. | Client: 12.61
+2021-03-07 14:34:54 -  Babayaga has logged in. | Client: 12.61
+2021-03-07 14:43:18 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 14:43:19 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 14:45:24 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 14:45:24 -  > NPC Ghostly Wolf added!
+2021-03-07 14:45:24 -  > NPC Talila added!
+2021-03-07 14:45:24 -  > NPC Valindara removed!
+2021-03-07 14:45:24 -  Babayaga has logged out. | Client: 12.61
+2021-03-07 14:47:09 -  Bryan has logged in. | Client: 12.61
+2021-03-07 14:50:16 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 14:50:16 -  
+2021-03-07 14:50:16 -  Lua Script Error: [Scripts Interface] 
+2021-03-07 14:50:16 -  /home/otbr10/data/scripts/quests/demon_helmet/movement-walls.lua:callback
+2021-03-07 14:50:16 -  ...br10/data/scripts/quests/demon_helmet/movement-walls.lua:51: attempt to index a nil value
+2021-03-07 14:50:16 -  stack traceback:
+2021-03-07 14:50:16 -  	[C]: in function '__index'
+2021-03-07 14:50:16 -  	...br10/data/scripts/quests/demon_helmet/movement-walls.lua:51: in function <...br10/data/scripts/quests/demon_helmet/movement-walls.lua:45>
+2021-03-07 14:50:29 -  
+2021-03-07 14:50:29 -  Lua Script Error: [Scripts Interface] 
+2021-03-07 14:50:29 -  /home/otbr10/data/scripts/quests/demon_helmet/movement-walls.lua:callback
+2021-03-07 14:50:29 -  ...br10/data/scripts/quests/demon_helmet/movement-walls.lua:51: attempt to index a nil value
+2021-03-07 14:50:29 -  stack traceback:
+2021-03-07 14:50:29 -  	[C]: in function '__index'
+2021-03-07 14:50:29 -  	...br10/data/scripts/quests/demon_helmet/movement-walls.lua:51: in function <...br10/data/scripts/quests/demon_helmet/movement-walls.lua:45>
+2021-03-07 14:50:32 -  
+2021-03-07 14:50:32 -  Lua Script Error: [Scripts Interface] 
+2021-03-07 14:50:32 -  /home/otbr10/data/scripts/quests/demon_helmet/movement-walls.lua:callback
+2021-03-07 14:50:32 -  ...br10/data/scripts/quests/demon_helmet/movement-walls.lua:51: attempt to index a nil value
+2021-03-07 14:50:32 -  stack traceback:
+2021-03-07 14:50:32 -  	[C]: in function '__index'
+2021-03-07 14:50:32 -  	...br10/data/scripts/quests/demon_helmet/movement-walls.lua:51: in function <...br10/data/scripts/quests/demon_helmet/movement-walls.lua:45>
+2021-03-07 14:52:12 -  Bryan has logged out. | Client: 12.61
+2021-03-07 15:03:59 -  [Warning] DropLoot:	Could not add loot item to corpse.
+2021-03-07 15:03:59 -  [Warning] DropLoot:	Could not add loot item to corpse.
+2021-03-07 15:03:59 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 15:04:42 -  Joana Duarco has logged out. | Client: 0
+2021-03-07 15:05:13 -  Juana Dumachado has logged out. | Client: 0
+2021-03-07 15:10:12 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 15:11:16 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 15:20:45 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 15:20:45 -  > NPC Ghostly Wolf removed!
+2021-03-07 15:20:45 -  > NPC Talila removed!
+2021-03-07 15:20:45 -  > NPC Valindara added!
+2021-03-07 15:20:45 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 15:20:45 -  Baconxd has logged out. | Client: 0
+2021-03-07 15:38:48 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 15:53:41 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 15:53:41 -  > NPC Ghostly Wolf added!
+2021-03-07 15:53:41 -  > NPC Talila added!
+2021-03-07 15:53:41 -  > NPC Valindara removed!
+2021-03-07 15:53:41 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 15:53:41 -  Juana Dacura has logged in. | Client: 12.61
+2021-03-07 16:16:55 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 16:16:55 -  > NPC Ghostly Wolf removed!
+2021-03-07 16:16:55 -  > NPC Talila removed!
+2021-03-07 16:16:55 -  > NPC Valindara added!
+2021-03-07 16:16:55 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 16:17:50 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 16:46:22 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 16:46:22 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 16:46:22 -  > NPC Ghostly Wolf added!
+2021-03-07 16:46:22 -  > NPC Talila added!
+2021-03-07 16:46:22 -  > NPC Valindara removed!
+2021-03-07 16:46:22 -  Albino Camelo has logged in. | Client: 12.61
+2021-03-07 16:52:14 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 16:52:14 -  Albino Camelo has logged out. | Client: 12.61
+2021-03-07 16:52:15 -  Albino Camelo has logged in. | Client: 12.61
+2021-03-07 16:55:30 -  > Broadcasted message: "Forrest animals spread out close to Ab'Dendriel!".
+2021-03-07 17:11:17 -  [Warning] DropLoot:	Could not add loot item to corpse.
+2021-03-07 17:11:17 -  Petronium has logged out. | Client: 0
+2021-03-07 17:13:06 -  Petronium has logged in. | Client: 12.61
+2021-03-07 17:18:07 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 17:18:07 -  > NPC Ghostly Wolf removed!
+2021-03-07 17:18:07 -  > NPC Talila removed!
+2021-03-07 17:18:07 -  > NPC Valindara added!
+2021-03-07 17:18:07 -  Reloaded: libs.
+2021-03-07 17:18:07 -  Petronium has logged out. | Client: 12.61
+2021-03-07 17:18:15 -  Petronium has logged in. | Client: 12.61
+2021-03-07 17:28:12 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 17:28:12 -  > ADM inside broadcasted: ""POI, INQ, WOTE E QUESTS" VEM DP THAIS".
+2021-03-07 17:28:12 -  > ADM inside broadcasted: "qm qser dar uma força ou deixar uma aba aberta:  https://www.twitch.tv/luttylytty".
+2021-03-07 17:28:12 -  Albino Camelo has logged out. | Client: 12.61
+2021-03-07 17:28:41 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 17:28:42 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 17:29:34 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 17:29:35 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 17:31:09 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 17:31:15 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 17:32:49 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 17:32:51 -  Outro Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 17:32:54 -  Outro Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 17:32:55 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 17:33:36 -  Petronium has logged out. | Client: 12.61
+2021-03-07 17:33:40 -  Petronium has logged in. | Client: 12.61
+2021-03-07 17:34:15 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 17:34:16 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 17:35:07 -  Juana Dacura has logged out. | Client: 12.61
+2021-03-07 17:35:09 -  Juana Dacura has logged in. | Client: 12.61
+2021-03-07 17:35:32 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 17:35:33 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 17:35:52 -  > Broadcasted message: "Something out of the ordinary, it's better we hide now!".
+2021-03-07 17:35:53 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 17:35:54 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 17:36:11 -  > Broadcasted message: "His strength is unlimited, the demons kneeling before him .!".
+2021-03-07 17:36:42 -  > Broadcasted message: "The dreaded Gaz'Haragoth is invading the land from prison.".
+2021-03-07 17:36:47 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 17:36:48 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 17:37:12 -  > Broadcasted message: "Leave now mortals, beware Gaz'Haragoth.".
+2021-03-07 17:40:11 -  Juana Ducajado has logged out. | Client: 12.61
+2021-03-07 17:40:13 -  Juana Ducajado has logged in. | Client: 12.61
+2021-03-07 17:43:12 -  Mage The Hell has logged in. | Client: 12.61
+2021-03-07 17:53:40 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 17:53:40 -  > NPC Ghostly Wolf added!
+2021-03-07 17:53:40 -  > NPC Talila added!
+2021-03-07 17:53:40 -  > NPC Valindara removed!
+2021-03-07 17:53:40 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 17:53:40 -  Alucard has logged in. | Client: 11
+2021-03-07 17:57:46 -  Reload type not found.
+2021-03-07 17:57:46 -  Reloaded: items.
+2021-03-07 17:57:46 -  [Error - Items::loadFromXml] Failed to load data/items/items.xml: Error parsing start element tag
+2021-03-07 17:57:46 -  Line 34636:
+2021-03-07 17:57:46 -  		<attribute key="decayTo" v
+2021-03-07 17:57:46 -  ^
+2021-03-07 17:58:35 -  Reloaded: items.
+2021-03-07 17:58:35 -  [Error - Items::loadFromXml] Failed to load data/items/items.xml: Error parsing element attribute
+2021-03-07 17:58:35 -  Line 23413:
+2021-03-07 17:58:35 -  		<attribute key="wei
+2021-03-07 17:58:35 -  ^
+2021-03-07 17:59:03 -  Reloaded: items.
+2021-03-07 17:59:03 -  [Error - Items::loadFromXml] Failed to load data/items/items.xml: Error parsing end element tag
+2021-03-07 17:59:03 -  Line 19736:
+2021-03-07 17:59:03 -  	</item
+2021-03-07 17:59:03 -  ^
+2021-03-07 18:00:45 -  Reloaded: items.
+2021-03-07 18:00:45 -  Reloaded: items.
+2021-03-07 18:00:45 -  Mage The Hell has logged out. | Client: 12.61
+2021-03-07 18:05:41 -  Burlockwolf has logged in. | Client: 12.61
+2021-03-07 18:05:57 -  Burlockwolf has logged out. | Client: 12.61
+2021-03-07 18:06:46 -  Moon Phisthys has logged in. | Client: 12.61
+2021-03-07 18:08:41 -  Gandalf has logged in. | Client: 12.61
+2021-03-07 18:11:00 -  Gandalf has logged out. | Client: 12.61
+2021-03-07 18:11:03 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 18:12:30 -  Alucard has logged out. | Client: 11
+2021-03-07 18:12:35 -  Babayaga has logged in. | Client: 11
+2021-03-07 18:13:38 -  Babayaga has logged out. | Client: 11
+2021-03-07 18:13:41 -  Alucard has logged in. | Client: 11
+2021-03-07 18:16:43 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 18:16:43 -  > NPC Ghostly Wolf removed!
+2021-03-07 18:16:43 -  > NPC Talila removed!
+2021-03-07 18:16:43 -  > NPC Valindara added!
+2021-03-07 18:16:43 -  Ekgolpeafullz has logged out. | Client: 12.61
+2021-03-07 18:16:44 -  Ekgolpeafullz has logged in. | Client: 12.61
+2021-03-07 18:19:06 -  Alucard has logged out. | Client: 11
+2021-03-07 18:19:17 -  Bryan has logged in. | Client: 11
+2021-03-07 18:22:03 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 18:22:03 -  Petronium has logged out. | Client: 12.61
+2021-03-07 18:22:10 -  Petronium has logged in. | Client: 12.61
+2021-03-07 18:30:26 -  Petronium has logged out. | Client: 0
+2021-03-07 18:31:30 -  Petronium has logged in. | Client: 12.61
+2021-03-07 18:32:26 -  Bryan has logged out. | Client: 11
+2021-03-07 18:32:29 -  Bryan has logged in. | Client: 11
+2021-03-07 18:32:32 -  Petronium has logged out. | Client: 12.61
+2021-03-07 18:38:11 -  Bubuzin has logged in. | Client: 12.61
+2021-03-07 18:45:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 18:45:30 -  > NPC Ghostly Wolf added!
+2021-03-07 18:45:30 -  > NPC Talila added!
+2021-03-07 18:45:30 -  > NPC Valindara removed!
+2021-03-07 18:45:30 -  Bubuzin has logged out. | Client: 0
+2021-03-07 18:52:41 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 18:52:41 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-07 18:52:44 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 19:00:19 -  Bryan has logged out. | Client: 11
+2021-03-07 19:00:25 -  Bryan has logged in. | Client: 11
+2021-03-07 19:03:52 -  Bryan has logged out. | Client: 0
+2021-03-07 19:04:20 -  Piruleite Tudo Tres has logged in. | Client: 12.61
+2021-03-07 19:10:08 -  Juana Dacura has logged out. | Client: 12.61
+2021-03-07 19:10:08 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 19:10:08 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 19:10:08 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 19:10:08 -  
+2021-03-07 19:10:08 -  Lua Script Error: [Main Interface] 
+2021-03-07 19:10:08 -  in a timer event called from: 
+2021-03-07 19:10:08 -  (Unknown scriptfile)
+2021-03-07 19:10:08 -  luaDoTargetCombatHealth(). Creature not found
+2021-03-07 19:10:08 -  stack traceback:
+2021-03-07 19:10:08 -  	[C]: in function 'doTargetCombatHealth'
+2021-03-07 19:10:08 -  	...rescripts/quests/grave_danger/cobra_bastion/scarlett.lua:35: in function <...rescripts/quests/grave_danger/cobra_bastion/scarlett.lua:27>
+2021-03-07 19:10:13 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 19:10:18 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 19:10:18 -  Juana Dacura has logged in. | Client: 12.61
+2021-03-07 19:10:21 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 19:11:21 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 19:13:06 -  ADM inside has logged out. | Client: 12.61
+2021-03-07 19:13:08 -  ADM inside has logged in. | Client: 12.61
+2021-03-07 19:16:12 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 19:16:12 -  > NPC Ghostly Wolf removed!
+2021-03-07 19:16:12 -  > NPC Talila removed!
+2021-03-07 19:16:12 -  > NPC Valindara added!
+2021-03-07 19:16:12 -  Piruleite Tudo Tres has logged out. | Client: 0
+2021-03-07 19:17:00 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 19:23:46 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 19:23:46 -  Ekgolpeafullz has logged out. | Client: 12.61
+2021-03-07 19:23:47 -  Ekgolpeafullz has logged in. | Client: 12.61
+2021-03-07 19:27:25 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-07 19:27:28 -  Gandalf has logged in. | Client: 12.61
+2021-03-07 19:29:04 -  Juana Ducajado has logged out. | Client: 12.61
+2021-03-07 19:29:09 -  Juana Ducajado has logged in. | Client: 12.61
+2021-03-07 19:30:55 -  Gandalf has logged out. | Client: 12.61
+2021-03-07 19:30:58 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 19:36:17 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 19:36:19 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 19:38:54 -  Ronalee Lovexp has logged out. | Client: 12.61
+2021-03-07 19:38:58 -  Ronalee Lovexp has logged in. | Client: 12.61
+2021-03-07 19:40:44 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 19:40:45 -  Outro Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 19:40:49 -  Outro Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 19:48:12 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 19:48:12 -  > NPC Ghostly Wolf added!
+2021-03-07 19:48:12 -  > NPC Talila added!
+2021-03-07 19:48:12 -  > NPC Valindara removed!
+2021-03-07 19:48:12 -  Pexeiroo has logged in. | Client: 12.61
+2021-03-07 19:49:21 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 19:49:21 -  Pexeiroo has logged out. | Client: 12.61
+2021-03-07 19:49:22 -  Pexeiroo has logged in. | Client: 12.61
+2021-03-07 19:51:44 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 19:53:47 -  Pexeiroo has logged out. | Client: 12.61
+2021-03-07 19:53:48 -  Pexeiroo has logged in. | Client: 12.61
+2021-03-07 19:57:51 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 19:58:00 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-07 19:58:07 -  Moon Phisthys has logged out. | Client: 12.61
+2021-03-07 19:58:10 -  Burlockwolf has logged in. | Client: 12.61
+2021-03-07 19:58:48 -  Ronalee Lovexp has logged out. | Client: 11
+2021-03-07 19:58:59 -  Ronalee Lovexp has logged in. | Client: 12.61
+2021-03-07 19:59:51 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 19:59:52 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 20:03:22 -  Capoteio Corsa has logged in. | Client: 12.61
+2021-03-07 20:05:13 -  Burlockwolf has logged out. | Client: 12.61
+2021-03-07 20:05:16 -  Moon Phisthys has logged in. | Client: 12.61
+2021-03-07 20:12:36 -  Moon Phisthys has logged out. | Client: 12.61
+2021-03-07 20:14:17 -  187.180.186.172 disconnected for exceeding packet per second limit.
+2021-03-07 20:21:15 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 20:21:15 -  > NPC Ghostly Wolf removed!
+2021-03-07 20:21:15 -  > NPC Talila removed!
+2021-03-07 20:21:15 -  > NPC Valindara added!
+2021-03-07 20:21:15 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 20:21:15 -  Capoteio Corsa has logged out. | Client: 12.61
+2021-03-07 20:30:12 -  Bilbo Bolseiro has logged in. | Client: 12.61
+2021-03-07 20:30:17 -  Bilbo Bolseiro has logged out. | Client: 12.61
+2021-03-07 20:30:18 -  Travis Sacana has logged in. | Client: 12.61
+2021-03-07 20:30:25 -  Travis Sacana has logged out. | Client: 12.61
+2021-03-07 20:32:12 -  187.180.186.172 disconnected for exceeding packet per second limit.
+2021-03-07 20:36:56 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:00 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:04 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:08 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:12 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:17 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:21 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:25 -  Devil has logged out. | Client: 12.61
+2021-03-07 20:37:26 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:28 -  Devil has logged in. | Client: 12.61
+2021-03-07 20:37:28 -  179.111.127.46 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:30 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:34 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:39 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:43 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:47 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:51 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:37:55 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:38:37 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:38:42 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:38:53 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:38:57 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:02 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:06 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:10 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:14 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:19 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:24 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:29 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:34 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:39 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:39:44 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-07 20:40:01 -  Ronalee Lovexp has logged out. | Client: 11
+2021-03-07 20:40:05 -  Ronalee Lovexp has logged in. | Client: 12.61
+2021-03-07 20:59:17 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 20:59:17 -  > NPC Ghostly Wolf added!
+2021-03-07 20:59:17 -  > NPC Talila added!
+2021-03-07 20:59:17 -  > NPC Valindara removed!
+2021-03-07 20:59:17 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 20:59:17 -  
+2021-03-07 20:59:17 -  Lua Script Error: [Scripts Interface] 
+2021-03-07 20:59:17 -  /home/otbr10/data/scripts/actions/other/potions.lua:callback
+2021-03-07 20:59:17 -  luaDoTargetCombatMana(). Creature not found
+2021-03-07 20:59:17 -  stack traceback:
+2021-03-07 20:59:17 -  	[C]: in function 'doTargetCombatMana'
+2021-03-07 20:59:17 -  	/home/otbr10/data/scripts/actions/other/potions.lua:242: in function </home/otbr10/data/scripts/actions/other/potions.lua:211>
+2021-03-07 20:59:17 -  
+2021-03-07 20:59:17 -  Lua Script Error: [Scripts Interface] 
+2021-03-07 20:59:17 -  /home/otbr10/data/scripts/actions/other/potions.lua:callback
+2021-03-07 20:59:17 -  /home/otbr10/data/scripts/actions/other/potions.lua:250: attempt to call method 'say' (a nil value)
+2021-03-07 20:59:17 -  stack traceback:
+2021-03-07 20:59:17 -  	[C]: in function 'say'
+2021-03-07 20:59:17 -  	/home/otbr10/data/scripts/actions/other/potions.lua:250: in function </home/otbr10/data/scripts/actions/other/potions.lua:211>
+2021-03-07 20:59:55 -  Ekgolpeafullz has logged out. | Client: 12.61
+2021-03-07 21:29:33 -  [Warning] DropLoot:	Could not add loot item to corpse.
+2021-03-07 21:29:33 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 21:29:33 -  > NPC Ghostly Wolf removed!
+2021-03-07 21:29:33 -  > NPC Talila removed!
+2021-03-07 21:29:33 -  > NPC Valindara added!
+2021-03-07 21:29:33 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 21:29:33 -  Cachaca Bilani has logged in. | Client: 12.61
+2021-03-07 21:30:53 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-07 21:30:54 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 21:33:01 -  Cachaca Bilani has logged out. | Client: 12.61
+2021-03-07 21:33:38 -  Frodo Bolseiro has logged in. | Client: 12.61
+2021-03-07 21:34:28 -  Frodo Bolseiro has logged out. | Client: 12.61
+2021-03-07 21:34:29 -  Cachaca Bilani has logged in. | Client: 12.61
+2021-03-07 21:34:30 -  Tonho Bom De Mira has logged out. | Client: 0
+2021-03-07 21:47:31 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 21:47:31 -  > NPC Ghostly Wolf added!
+2021-03-07 21:47:31 -  > NPC Talila added!
+2021-03-07 21:47:31 -  > NPC Valindara removed!
+2021-03-07 21:47:31 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 21:48:07 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 21:51:39 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 21:51:39 -  Cachaca Bilani has logged out. | Client: 12.61
+2021-03-07 21:54:03 -  ADM inside has logged out. | Client: 12.61
+2021-03-07 21:54:06 -  ADM inside has logged in. | Client: 12.61
+2021-03-07 22:10:17 -  Devil has logged out. | Client: 12.61
+2021-03-07 22:10:21 -  Devil has logged in. | Client: 12.61
+2021-03-07 22:21:13 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 22:21:13 -  > NPC Ghostly Wolf removed!
+2021-03-07 22:21:13 -  > NPC Talila removed!
+2021-03-07 22:21:13 -  > NPC Valindara added!
+2021-03-07 22:21:13 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 22:21:13 -  Madii has logged in. | Client: 12.61
+2021-03-07 22:21:20 -  Madii has logged out. | Client: 12.61
+2021-03-07 22:21:22 -  Madiamm has logged in. | Client: 12.61
+2021-03-07 22:22:30 -  Devil has logged out. | Client: 12.61
+2021-03-07 22:22:32 -  Devil has logged in. | Client: 12.61
+2021-03-07 22:25:03 -  Madiamm has logged out. | Client: 12.61
+2021-03-07 22:25:23 -  187.180.186.172 disconnected for exceeding packet per second limit.
+2021-03-07 22:32:13 -  187.180.186.172 disconnected for exceeding packet per second limit.
+2021-03-07 22:48:26 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 22:48:26 -  > NPC Ghostly Wolf added!
+2021-03-07 22:48:26 -  > NPC Talila added!
+2021-03-07 22:48:26 -  > NPC Valindara removed!
+2021-03-07 22:48:26 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-07 22:48:28 -  Gandalf has logged in. | Client: 12.61
+2021-03-07 22:49:34 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 22:49:34 -  Gandalf has logged out. | Client: 12.61
+2021-03-07 22:49:36 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 23:00:45 -  Babayaga has logged in. | Client: 11
+2021-03-07 23:03:04 -  Moon Phisthys has logged in. | Client: 12.61
+2021-03-07 23:25:18 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-07 23:25:18 -  > NPC Ghostly Wolf removed!
+2021-03-07 23:25:18 -  > NPC Talila removed!
+2021-03-07 23:25:18 -  > NPC Valindara added!
+2021-03-07 23:25:18 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-07 23:25:18 -  Juana Ducajado has logged out. | Client: 12.61
+2021-03-07 23:25:19 -  Juana Ducajado has logged in. | Client: 12.61
+2021-03-07 23:25:20 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 23:36:28 -  Juana Dacura has logged out. | Client: 12.61
+2021-03-07 23:36:34 -  Juana Dacura has logged in. | Client: 12.61
+2021-03-07 23:49:11 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-07 23:49:11 -  > NPC Ghostly Wolf added!
+2021-03-07 23:49:11 -  > NPC Talila added!
+2021-03-07 23:49:11 -  > NPC Valindara removed!
+2021-03-07 23:49:11 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-07 23:49:11 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-07 23:49:13 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-07 23:49:15 -  Moon Phisthys has logged out. | Client: 12.61
+2021-03-07 23:49:17 -  Babayaga has logged out. | Client: 11
+2021-03-07 23:49:17 -  Moon Phisthys has logged in. | Client: 12.61
+2021-03-07 23:49:21 -  Babayaga has logged in. | Client: 11
+2021-03-07 23:54:17 -  Juana Ducajado has logged out. | Client: 12.61
+2021-03-07 23:54:19 -  Juana Ducajado has logged in. | Client: 12.61
+2021-03-07 23:54:25 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-07 23:54:26 -  Joana Duarco has logged in. | Client: 12.61
+2021-03-07 23:54:26 -  Juana Dacura has logged out. | Client: 12.61
+2021-03-07 23:54:26 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-07 23:54:27 -  Juana Dumachado has logged in. | Client: 12.61
+2021-03-07 23:54:27 -  Juana Dacura has logged in. | Client: 12.61
+2021-03-07 23:54:28 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-07 23:54:29 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-08 00:03:45 -  >> Rashid is traveling to Mondays location.
+2021-03-08 00:03:45 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-08 00:03:53 -  35.247.246.114 disconnected for exceeding packet per second limit.
+2021-03-08 00:07:10 -  ADM inside has logged out. | Client: 0
+2021-03-08 00:07:39 -  ADM inside has logged in. | Client: 12.61
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6500 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6501 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6503 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6550 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6570 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6661 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6662 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6663 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6664 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6665 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6666 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6678 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6693 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6697 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6698 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6699 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6701 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6702 in range from uid: 5000, to uid: 12000
+2021-03-08 00:11:14 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6703 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  Reloaded: scripts.
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6500 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6501 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6503 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6550 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6570 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6661 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6662 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6663 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6664 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6665 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6666 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6678 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6693 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6697 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6698 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6699 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6701 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6702 in range from uid: 5000, to uid: 12000
+2021-03-08 00:12:21 -  [Warning - Actions::registerLuaEvent] Duplicate registered item with uid: 6703 in range from uid: 5000, to uid: 12000
+2021-03-08 00:19:48 -  Reloaded: scripts.
+2021-03-08 00:19:48 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 00:19:48 -  > NPC Ghostly Wolf removed!
+2021-03-08 00:19:48 -  > NPC Talila removed!
+2021-03-08 00:19:48 -  > NPC Valindara added!
+2021-03-08 00:19:48 -  
+2021-03-08 00:19:48 -  Lua Script Error: [Main Interface] 
+2021-03-08 00:19:48 -  in a timer event called from: 
+2021-03-08 00:19:48 -  (Unknown scriptfile)
+2021-03-08 00:19:48 -  attempt to index a number value
+2021-03-08 00:19:48 -  stack traceback:
+2021-03-08 00:19:48 -  	[C]: at 0x5567da406440
+2021-03-08 00:19:48 -  	[C]: in function 'getSpectators'
+2021-03-08 00:19:48 -  	data/lib/core/functions.lua:184: in function <data/lib/core/functions.lua:182>
+2021-03-08 00:21:41 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 00:21:41 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-08 00:21:42 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-08 00:22:45 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-08 00:22:46 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-08 00:24:17 -  Moon Phisthys has logged out. | Client: 12.61
+2021-03-08 00:24:59 -  Juana Ducajado has logged out. | Client: 12.61
+2021-03-08 00:26:57 -  Moon Phisthys has logged in. | Client: 12.61
+2021-03-08 00:36:14 -  Cinder Hell has logged in. | Client: 12.61
+2021-03-08 00:38:02 -  Moon Phisthys has logged out. | Client: 12.61
+2021-03-08 00:38:04 -  Moon Phisthys has logged in. | Client: 12.61
+2021-03-08 00:38:57 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-08 00:38:59 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-08 00:39:44 -  Babayaga has logged out. | Client: 11
+2021-03-08 00:39:47 -  Babayaga has logged in. | Client: 11
+2021-03-08 00:43:23 -  Cinder Hell has logged out. | Client: 12.61
+2021-03-08 00:50:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 00:50:30 -  > NPC Ghostly Wolf added!
+2021-03-08 00:50:30 -  > NPC Talila added!
+2021-03-08 00:50:30 -  > NPC Valindara removed!
+2021-03-08 00:50:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 00:50:30 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-08 00:54:12 -  Moon Phisthys has logged out. | Client: 12.61
+2021-03-08 00:54:15 -  Burlockwolf has logged in. | Client: 12.61
+2021-03-08 00:54:17 -  Burlockwolf has logged out. | Client: 12.61
+2021-03-08 00:56:45 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-08 00:58:04 -  Babayaga has logged out. | Client: 11
+2021-03-08 01:04:45 -  Cinder Hell has logged in. | Client: 12.61
+2021-03-08 01:22:52 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 01:22:52 -  > NPC Ghostly Wolf removed!
+2021-03-08 01:22:52 -  > NPC Talila removed!
+2021-03-08 01:22:52 -  > NPC Valindara added!
+2021-03-08 01:22:52 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 01:22:52 -  Juana Dumachado has logged out. | Client: 12.61
+2021-03-08 01:24:53 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-08 01:24:55 -  Gandalf has logged in. | Client: 12.61
+2021-03-08 01:37:53 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-08 01:37:56 -  Guri Du Geada has logged in. | Client: 12.61
+2021-03-08 01:45:22 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 01:45:22 -  > NPC Ghostly Wolf added!
+2021-03-08 01:45:22 -  > NPC Talila added!
+2021-03-08 01:45:22 -  > NPC Valindara removed!
+2021-03-08 01:45:22 -  Lubras Mage has logged in. | Client: 12.61
+2021-03-08 01:49:05 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 01:49:05 -  Devil has logged out. | Client: 12.61
+2021-03-08 01:49:21 -  Khal Drogo has logged in. | Client: 12.61
+2021-03-08 01:51:46 -  Pexeiroo has logged out. | Client: 0
+2021-03-08 01:56:43 -  Bilbo Bolseiro has logged in. | Client: 12.61
+2021-03-08 01:59:12 -  Bilbo Bolseiro has logged out. | Client: 12.61
+2021-03-08 02:10:20 -  Lubras Mage has logged out. | Client: 12.61
+2021-03-08 02:10:21 -  Lubras Mage has logged in. | Client: 12.61
+2021-03-08 02:11:08 -  Lubras Mage has logged out. | Client: 12.61
+2021-03-08 02:11:08 -  Lubras Mage has logged in. | Client: 12.61
+2021-03-08 02:26:11 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 02:26:11 -  > NPC Ghostly Wolf removed!
+2021-03-08 02:26:11 -  > NPC Talila removed!
+2021-03-08 02:26:11 -  > NPC Valindara added!
+2021-03-08 02:26:11 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 02:26:11 -  Lubras Mage has logged out. | Client: 12.61
+2021-03-08 02:26:13 -  Lubras Mage has logged in. | Client: 12.61
+2021-03-08 02:36:39 -  Lubras Mage has logged out. | Client: 12.61
+2021-03-08 02:42:14 -  Cinder Hell has logged out. | Client: 12.61
+2021-03-08 03:00:19 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 03:00:19 -  > NPC Ghostly Wolf added!
+2021-03-08 03:00:19 -  > NPC Talila added!
+2021-03-08 03:00:19 -  > NPC Valindara removed!
+2021-03-08 03:00:19 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 03:00:19 -  Guri Du Geada has logged out. | Client: 12.61
+2021-03-08 03:00:21 -  Outro Guri Du Geada has logged in. | Client: 12.61
+2021-03-08 03:00:26 -  Outro Guri Du Geada has logged out. | Client: 12.61
+2021-03-08 03:23:55 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 03:23:55 -  > NPC Ghostly Wolf removed!
+2021-03-08 03:23:55 -  > NPC Talila removed!
+2021-03-08 03:23:55 -  > NPC Valindara added!
+2021-03-08 03:23:55 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 03:23:55 -  
+2021-03-08 03:23:55 -  Lua Script Error: [Main Interface] 
+2021-03-08 03:23:55 -  in a timer event called from: 
+2021-03-08 03:23:55 -  (Unknown scriptfile)
+2021-03-08 03:23:55 -  attempt to index a number value
+2021-03-08 03:23:55 -  stack traceback:
+2021-03-08 03:23:55 -  	[C]: at 0x5567da406440
+2021-03-08 03:23:55 -  	[C]: in function 'getSpectators'
+2021-03-08 03:23:55 -  	...scripts/movements/quests/killing_in_the_name_of/boss.lua:15: in function <...scripts/movements/quests/killing_in_the_name_of/boss.lua:12>
+2021-03-08 03:25:05 -  Gandalf has logged out. | Client: 12.61
+2021-03-08 03:25:08 -  Raddagasth Berserker has logged in. | Client: 12.61
+2021-03-08 03:25:21 -  Raddagasth Berserker has logged out. | Client: 12.61
+2021-03-08 03:25:24 -  Gwym Lord Of Cinder has logged in. | Client: 12.61
+2021-03-08 03:25:25 -  Gwym Lord Of Cinder has logged out. | Client: 12.61
+2021-03-08 03:25:27 -  Tonho Bom De Mira has logged in. | Client: 12.61
+2021-03-08 03:28:57 -  Tonho Bom De Mira has logged out. | Client: 12.61
+2021-03-08 03:28:59 -  Gandalf has logged in. | Client: 12.61
+2021-03-08 03:29:19 -  Gandalf has logged out. | Client: 12.61
+2021-03-08 03:32:47 -  Joana Duarco has logged out. | Client: 12.61
+2021-03-08 03:50:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 03:50:30 -  > NPC Ghostly Wolf added!
+2021-03-08 03:50:30 -  > NPC Talila added!
+2021-03-08 03:50:30 -  > NPC Valindara removed!
+2021-03-08 03:50:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 03:50:30 -  > Broadcasted message: "Elf Scouts have been sighted near Venore!".
+2021-03-08 03:50:50 -  > Broadcasted message: "The elves attack from shadowthorn!".
+2021-03-08 03:51:30 -  > Broadcasted message: "Venore is under attack!".
+2021-03-08 05:04:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 05:04:30 -  > NPC Ghostly Wolf removed!
+2021-03-08 05:04:30 -  > NPC Talila removed!
+2021-03-08 05:04:30 -  > NPC Valindara added!
+2021-03-08 05:04:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 05:04:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 05:04:30 -  > NPC Ghostly Wolf added!
+2021-03-08 05:04:30 -  > NPC Talila added!
+2021-03-08 05:04:30 -  > NPC Valindara removed!
+2021-03-08 05:04:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 05:04:30 -  > Broadcasted message: "There is something stony moving down in the Ankrahmun Rahemos tombs.".
+2021-03-08 05:04:50 -  > Broadcasted message: "Gargoyle attack in the Ankrahmun Rahemos tombs!".
+2021-03-08 05:06:22 -  Khissa has logged in. | Client: 11
+2021-03-08 05:19:49 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 05:19:49 -  > NPC Ghostly Wolf removed!
+2021-03-08 05:19:49 -  > NPC Talila removed!
+2021-03-08 05:19:49 -  > NPC Valindara added!
+2021-03-08 05:19:49 -  Khissa has logged out. | Client: 11
+2021-03-08 05:19:52 -  Sakhmet has logged in. | Client: 11
+2021-03-08 05:26:53 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 05:26:53 -  Sakhmet has logged out. | Client: 11
+2021-03-08 05:36:19 -  Khal Drogo has logged out. | Client: 12.61
+2021-03-08 05:36:25 -  Khal Drogo has logged in. | Client: 12.61
+2021-03-08 05:48:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 05:48:30 -  > NPC Ghostly Wolf added!
+2021-03-08 05:48:30 -  > NPC Talila added!
+2021-03-08 05:48:30 -  > NPC Valindara removed!
+2021-03-08 05:48:30 -  > Broadcasted message: "Many aggressive beasts are roaming south of Ab'Dendriel! Take care!".
+2021-03-08 06:00:22 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 06:00:22 -  > Broadcasted message: "Rat Plague in Thais!".
+2021-03-08 07:18:56 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 07:18:56 -  > NPC Ghostly Wolf removed!
+2021-03-08 07:18:56 -  > NPC Talila removed!
+2021-03-08 07:18:56 -  > NPC Valindara added!
+2021-03-08 07:18:56 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 07:18:56 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 07:18:56 -  > NPC Ghostly Wolf added!
+2021-03-08 07:18:56 -  > NPC Talila added!
+2021-03-08 07:18:56 -  > NPC Valindara removed!
+2021-03-08 07:18:56 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 07:18:56 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 07:18:56 -  > NPC Ghostly Wolf removed!
+2021-03-08 07:18:56 -  > NPC Talila removed!
+2021-03-08 07:18:56 -  > NPC Valindara added!
+2021-03-08 07:18:56 -  Khal Drogo has logged out. | Client: 12.61
+2021-03-08 07:19:00 -  Khal Drogo has logged in. | Client: 12.61
+2021-03-08 07:26:26 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 07:26:26 -  Khal Drogo has logged out. | Client: 12.61
+2021-03-08 07:26:30 -  > Broadcasted message: "Feverish Citizens are invading the streets of Venore!".
+2021-03-08 08:42:30 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 08:42:30 -  > NPC Ghostly Wolf added!
+2021-03-08 08:42:30 -  > NPC Talila added!
+2021-03-08 08:42:30 -  > NPC Valindara removed!
+2021-03-08 08:42:30 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 08:42:30 -  >> Starting Sunrise... Current light is 47 and it's 5:56 Tibian Time.
+2021-03-08 08:42:30 -  > NPC Ghostly Wolf removed!
+2021-03-08 08:42:30 -  > NPC Talila removed!
+2021-03-08 08:42:30 -  > NPC Valindara added!
+2021-03-08 08:42:30 -  >> Starting Day... Current light is 250 and it's 7:52 Tibian Time.
+2021-03-08 08:42:30 -  > Broadcasted message: "Something bad is happening deep, deep down under Banuta.".
+2021-03-08 08:42:50 -  > Broadcasted message: "Something is sizzling deep under many sheets of soil in Banuta.".
+2021-03-08 08:44:31 -  >> Starting Sunset... Current light is 243 and it's 17:24 Tibian Time.
+2021-03-08 08:44:31 -  > NPC Ghostly Wolf added!
+2021-03-08 08:44:31 -  > NPC Talila added!
+2021-03-08 08:44:31 -  > NPC Valindara removed!
+2021-03-08 08:44:31 -  > Broadcasted message: "Hordes of slippery spawns slither in Deeper Banuta!".
+2021-03-08 09:00:02 -  >> Starting Night... Current light is 40 and it's 19:20 Tibian Time.
+2021-03-08 09:00:02 -  >> Saving Hirelings
+2021-03-08 09:00:02 -  Juana Dacura has logged out. | Client: 12.61
+2021-03-08 09:00:02 -  ADM inside has logged out. | Client: 0
+2021-03-08 09:00:02 -  GM coxinha has logged out. | Client: 0
+2021-03-08 09:00:02 -  Supimpa has logged out. | Client: 0
+2021-03-08 09:00:02 -  Ronalee Lovexp has logged out. | Client: 0
+2021-03-08 09:00:02 -  Saving server...
+2021-03-08 09:00:03 -  > Saved house items in: 0.537 seconds
+2021-03-08 09:00:04 -  Shutting down... done!

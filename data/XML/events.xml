@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event name="Double XP" startdate="03/19/2021" enddate="03/22/2021" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Get ready! Crazy Weekend." />
+		<colors colordark="#064F00" colorlight="#064F00" />
+		<details displaypriority="6" isseasonal="0" specialevent="1" />
+	</event>
+	<event name="Double Coins " startdate="03/01/2021" enddate="03/28/2021" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Get ready! Double Coins active." />
+		<colors colordark="#235c00" colorlight="#e21049" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Faster Spawn" startdate="03/13/2021" enddate="03/15/2021" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="300" skillrate="100" />
+		<description description="Get ready! Crazy Weekend." />
+		<colors colordark="#C13500" colorlight="#C13500" />
+		<details displaypriority="6" isseasonal="0" specialevent="1" />
+	</event>
+	<event name="Double Skill!" startdate="03/15/2021" enddate="03/19/2021" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="300" />
+		<description description="Get ready! Crazy Weekend." />
+		<colors colordark="#C13500" colorlight="#C13500" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+</events>

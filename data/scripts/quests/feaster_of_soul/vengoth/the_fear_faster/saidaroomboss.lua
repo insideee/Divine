@@ -1,0 +1,16 @@
+local paleWormExit = MoveEvent()
+
+function paleWormExit.onStepIn(creature, item, position, fromPosition)
+	if creature:isPlayer() == false then
+		return true
+	end
+	position:sendMagicEffect(CONST_ME_TELEPORT)
+	creature:teleportTo(Position(33609, 31500, 10))
+	creature:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
+	return true
+end
+
+paleWormExit:type("stepin")
+paleWormExit:aid(48663)
+
+paleWormExit:register() 
